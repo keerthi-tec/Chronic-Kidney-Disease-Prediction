@@ -2,12 +2,12 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="og:title" content="Kidney-Disease Prediction">
-  <meta name="author" content="Venkata Sreeram">
+  <meta name="og:title" content="Chronic Kidney Disease Prediction">
+  <meta name="author" content="Batch A-9">
   <meta name="og:image" content="static/logo1.png">
   <meta name="Keywords" content="Flask, Machine Learning, Deep Learning, Artificial Intelligence, AI, ML,DL, Web Development">
   <meta name="description" content="A Machine Learning and Deep Learning based webapp for Multiple Disease Prediction.">
-  <title>Kidney Disease Predictor</title>
+  <title>Chronic Kidney Disease Prediction</title>
   <link rel="icon" href="{{ url_for('static', filename = 'logo1.png') }}" type="image/icon type">
   <p> Kidney Disease </p>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -38,17 +38,17 @@ footer{
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" style="background-color: black !important;">
-        <a style="text-decoration: none; color: white" href="{{ url_for('home') }}"><h1> KIDNEY DISEASE PREDICTION</h1></a>
+        <a style="text-decoration: none; color: white" href="{{ url_for('home') }}"><h3> CHRONIC KIDNEY DISEASE PREDICTION</h3></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
          </button>
          <div class="collapse navbar-collapse" id="navbarNav">
            <ul class="navbar-nav ml-auto">
              <li class="nav-item active">
-               <a href="{{ url_for('home') }}" class="nav-link"><h3>Home</h3></a>
+               <a href="{{ url_for('home') }}" class="nav-link"><h5>Home</h5></a>
              </li>
              <li class="nav-item active">
-                <a class="nav-link" href="{{ url_for('kidneyPage') }}"><h3>Kidney-Disease</h3></a>
+                <a class="nav-link" href="{{ url_for('kidneyPage') }}"><h5>Get the Prediction</h5></a>
               </li>
            </ul>
          </div>
@@ -69,10 +69,8 @@ footer{
   <footer>
     <center>
       <ul style="list-style-type:none;">
-      <li style="display: inline;"><a href="https://www.linkedin.com/in/venkata-sreeram" style="color: white;" target="blank"><span class="fa fa-linkedin">  LinkedIn</span></a></li>
-      &nbsp;
-      <li style="display: inline;"><a href="https://www.github.com/venkata-sreeram" style="color: white;" target="blank"><span class="fa fa-github">  GitHub</span></a></li>
-      <li><p style="color: white;">Made with <span style="color: red;">&hearts;</span> by Venkata Sreeram</p></li>
+      
+      <li><p style="color: white;">This Project is made by Batch A-9 of the IV-B.Tech, Computer Science and Engineering Department -- Vignan's Institute of Information Technology.  </p></li>
     </ul>
   </center>
   </footer>
